@@ -28,4 +28,12 @@ else{
   console.error("Kasva nulikka...");
 }
 
-console.log()
+let pvm = "2021/8/18";
+console.log(pvm);
+for(let i=0; i<=10; i++) {
+console.log(pvmFin(pvm.split("/")[0], pvm.split("/")[1], pvm.split("/")[2]));
+}
+
+function pvmFin(vuosi, kuukausi, paiva){
+  return (paiva + "." + kuukausi +"."+ vuosi);
+}
