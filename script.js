@@ -27,3 +27,5 @@ if(ika >= 18 || nimi == "Juuso Oijala"){
 else{
   console.error("Kasva nulikka...");
 }
+
+console.log()
