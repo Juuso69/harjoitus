@@ -28,7 +28,7 @@ else{
   console.error("Kasva nulikka...");
 }
 
-let pvm = "2021/8/18";
+let pvm = "2021/8/19";
 console.log(pvm);
 for(let i=0; i<=10; i++) {
 console.log(pvmFin(pvm.split("/")[0], pvm.split("/")[1], pvm.split("/")[2]));
@@ -36,4 +36,19 @@ console.log(pvmFin(pvm.split("/")[0], pvm.split("/")[1], pvm.split("/")[2]));
 
 function pvmFin(vuosi, kuukausi, paiva){
   return (paiva + "." + kuukausi +"."+ vuosi);
+}
+
+var attempt = 3;
+
+function validate(){
+  var username = document.getElementById("tunnus").value;
+  var password = document.getElementById("salis".value);
+  if(username =='juuso69')
+    {
+	  	alert("please enter user name.");
+		}
+	  	else if(pwd=='perkele')
+		{
+      alert("enter the password");
+	  }
 }
