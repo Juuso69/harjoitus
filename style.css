@@ -37,9 +37,21 @@ div {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+
   font-family: cursive;
 }
 
 h3 {
   font-family: cursive;
+}
+
+.topDiv {
+  text-align: center;
+  background-color: rgb(255, 0, 0);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 0px;
 }
