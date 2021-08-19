@@ -38,13 +38,15 @@ function pvmFin(vuosi, kuukausi, paiva){
   return (paiva + "." + kuukausi +"."+ vuosi);
 }
 
-var attempt = 3;
-
-function validate(){
-  var username = document.getElementById("tunnus").value;
-  var password = document.getElementById("salis".value);
-  if(username =='juuso69')
-    if(password == 'perkele')
-      alert("vitun hienoo");
-	}
+function validate() {
+  var username = document.getElementById("username").value;
+  var password = document.getElementById("password").value;
+  if (username == "juuso69" && password == "testi") {
+    function sivusto() {
+      location.replace("");
+    }
+    }
+  else if (username != "juuso69" && password != "testi"){
+    alert('WRONG PASS');
+  }
 }

@@ -4,17 +4,17 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-  <h3>Tunnistaudu</h3>
+  <h3>LOGIN</h3>
 
   <div>
   <form action="">
-    <label for="tunnus">Tunnus</label>
-    <input type="text" id="tunnus" name="tunnus" placeholder="Tunnus..">
+    <label for="username">Username</label>
+    <input type="text" id="username" name="username" placeholder="Username.."/>
 
-    <label for="salis">Salasana</label>
-    <input type="password" id="salis" name="salis" placeholder="Salasana..">
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" placeholder="Password.."/>
   
-    <input type="submit" value="Kirjaudu" onclick="validate()">
+    <input class="submit" type="submit" value="login" onclick="validate();"/>
   </form>
   </div>
   <script src="script.js"></script>
