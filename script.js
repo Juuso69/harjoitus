@@ -44,11 +44,7 @@ function validate(){
   var username = document.getElementById("tunnus").value;
   var password = document.getElementById("salis".value);
   if(username =='juuso69')
-    {
-	  	alert("please enter user name.");
-		}
-	  	else if(pwd=='perkele')
-		{
-      alert("enter the password");
-	  }
+    if(password == 'perkele')
+      alert("vitun hienoo");
+	}
 }
