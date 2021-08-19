@@ -42,11 +42,9 @@ function validate() {
   var username = document.getElementById("username").value;
   var password = document.getElementById("password").value;
   if (username == "juuso69" && password == "testi") {
-    function sivusto() {
-      location.replace("");
+    window.location.replace("site.html");
     }
-    }
-  else if (username != "juuso69" && password != "testi"){
-    alert('WRONG PASS');
+  else if (username != "juuso69" || password != "testi"){
+    alert('Wrong password/username');
   }
 }
