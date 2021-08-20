@@ -3,7 +3,7 @@
   font-family: helvetica;
   color: rgb(255, 255, 255);
   font-size: 30px;
-  background-color: rgb(255, 0, 0);
+  background-color: rgba(202, 205, 221, 0.582);
   width: 100%;
   padding: 12px 0px;
   margin: 0px 0;
@@ -15,6 +15,7 @@ body {
   margin: 0px;
   margin-top: 0px;
   padding: 0px;
+  background: url(https://wallup.net/wp-content/uploads/2017/10/27/112340-ArseniXC-beach-Sun-sun_rays-sea-clouds-Everlasting_Summer-visual_novel.jpg);
 }
 
 #container {
@@ -33,5 +34,15 @@ body {
 }
 
 #counter {
+  text-align: center;
   font-weight: bold;
+  color: azure;
+}
+
+#clicks {
+  color: azure;
+}
+
+span {
+  color: azure;
 }

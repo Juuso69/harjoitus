@@ -1,9 +1,13 @@
+body {
+  background: url(https://wallpaperaccess.com/full/5104923.jpg)
+}
+
 input[type=text], select {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(204, 204, 204);
   border-radius: 4px;
   box-sizing: border-box;
 }
@@ -20,7 +24,7 @@ input[type=password], select {
 
 input[type=submit] {
   width: 100%;
-  background-color: rgb(255, 0, 0);
+  background-color: rgba(68, 0, 255, 0.842);
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -30,12 +34,12 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #ff0000;
+  background-color: #0004ff83;
 }
 
 div {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #f2f2f2c2;
   padding: 20px;
 
   font-family: cursive;
@@ -45,13 +49,7 @@ h3 {
   font-family: cursive;
 }
 
-.topDiv {
-  text-align: center;
-  background-color: rgb(255, 0, 0);
-  position: fixed;
-  top: 0;
-  width: 100%;
-  padding: 0px;
-  margin: 0px;
-  margin-top: 0px;
+#eka {
+  font-family: cursive;
+  color: azure;
 }
